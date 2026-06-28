@@ -1,4 +1,5 @@
-cd "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project"
+cd "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project"
+rm -rf CMakeCache.txt CMakeFiles
 cmake -Ddeal.II_DIR=/home/mhaas/dealii .
 make
-./step-3
+./step-4

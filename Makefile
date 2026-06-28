@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project"
+CMAKE_SOURCE_DIR = "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project"
+CMAKE_BINARY_DIR = "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project/CMakeFiles" "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project/CMakeFiles" "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named step-3
+# Target rules for targets named step-4
 
 # Build rule for target.
-step-3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 step-3
-.PHONY : step-3
+step-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 step-4
+.PHONY : step-4
 
 # fast build rule for target.
-step-3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-3.dir/build.make CMakeFiles/step-3.dir/build
-.PHONY : step-3/fast
+step-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-4.dir/build.make CMakeFiles/step-4.dir/build
+.PHONY : step-4/fast
 
 #=============================================================================
 # Target rules for targets named run
@@ -220,29 +220,29 @@ info/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/build
 .PHONY : info/fast
 
-step-3.o: step-3.cc.o
-.PHONY : step-3.o
+step-4.o: step-4.cc.o
+.PHONY : step-4.o
 
 # target to build an object file
-step-3.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-3.dir/build.make CMakeFiles/step-3.dir/step-3.cc.o
-.PHONY : step-3.cc.o
+step-4.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-4.dir/build.make CMakeFiles/step-4.dir/step-4.cc.o
+.PHONY : step-4.cc.o
 
-step-3.i: step-3.cc.i
-.PHONY : step-3.i
+step-4.i: step-4.cc.i
+.PHONY : step-4.i
 
 # target to preprocess a source file
-step-3.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-3.dir/build.make CMakeFiles/step-3.dir/step-3.cc.i
-.PHONY : step-3.cc.i
+step-4.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-4.dir/build.make CMakeFiles/step-4.dir/step-4.cc.i
+.PHONY : step-4.cc.i
 
-step-3.s: step-3.cc.s
-.PHONY : step-3.s
+step-4.s: step-4.cc.s
+.PHONY : step-4.s
 
 # target to generate assembly for a file
-step-3.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-3.dir/build.make CMakeFiles/step-3.dir/step-3.cc.s
-.PHONY : step-3.cc.s
+step-4.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step-4.dir/build.make CMakeFiles/step-4.dir/step-4.cc.s
+.PHONY : step-4.cc.s
 
 # Help Target
 help:
@@ -259,10 +259,10 @@ help:
 	@echo "... run"
 	@echo "... runclean"
 	@echo "... strip_comments"
-	@echo "... step-3"
-	@echo "... step-3.o"
-	@echo "... step-3.i"
-	@echo "... step-3.s"
+	@echo "... step-4"
+	@echo "... step-4.o"
+	@echo "... step-4.i"
+	@echo "... step-4.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project
+# Install script for directory: /mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/2D Project/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
