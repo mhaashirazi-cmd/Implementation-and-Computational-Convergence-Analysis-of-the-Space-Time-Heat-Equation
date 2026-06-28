@@ -1,0 +1,4 @@
+cd "/mnt/h/Haider Documents/Erasmus scholarship 2025/2nd semester/Space, Tme methods/Project"
+cmake -Ddeal.II_DIR=/home/mhaas/dealii .
+make
+./step-3
